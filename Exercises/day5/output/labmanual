@@ -1,0 +1,28 @@
+1- Compile Exception classes -
+
+1.1 - javac  -d "/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes" *.java
+
+2- Conpile GetLogger file in processors folder 
+
+2.1 - Conmpile logger file .
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/json-simple-1.1.1.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes" -d "/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes"  GetLogger.java
+
+2.2 - Compile Configuration file .
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/json-simple-1.1.1.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes" -d "/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes"  GetConfiguration.java
+
+3- Compile File of Validator . 
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/json-simple-1.1.1.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes" -d "/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes"  *.java
+
+4 - Compile Processors file . 
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/json-simple-1.1.1.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes" -d "/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes" *.java
+
+2- Compile main file in main folder 
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/json-simple-1.1.1.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes"  Crawler.java
+
+3- Run project -
+java -cp ".:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/json-simple-1.1.1.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day5/output/WebCrawler/classes" com.ncu.main.Crawler

@@ -1,0 +1,20 @@
+1- Conpile GetLogger file in processors folder 
+
+1.1 - Conmpile logger file .
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes" -d "/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes"  GetLogger.java
+
+1.1 - Compile Configuration file .
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes" -d "/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes"  GetConfiguration.java
+
+1.1 - Conpile processors file . 
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes" -d "/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes"  *.java
+
+2- Compile main file in main folder 
+
+javac -cp ".:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes" -d "/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes"  Crawler.java
+
+3- Run project -
+java -cp ".:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/libs/log4j-1.2.17.jar:/home/kls103/Desktop/NCU/Exercises/day1/output/WebCrawler/classes" com.ncu.main.Crawler
